@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently 'next dev' 'cd /my-project npm run develop'",
-    "build": "next build",
+    "dev": "concurrently \"next dev\" \"cd ./my-project && yarn develop\"",
+    "build": "concurrently \"next build\" \"cd ./my-project && yarn develop\"",
     "start": "next start",
     "lint": "next lint"
   },
