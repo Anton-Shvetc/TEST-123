@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cd ./my-project && yarn develop",
-    "build": "cd ./my-project && yarn develop",
+    "build": "cd ./my-project && npm ci && yarn develop",
     "start": "next start",
     "lint": "next lint"
   },
