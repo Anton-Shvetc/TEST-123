@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"cd ./my-project && yarn develop\"",
+    "dev": "cd ./my-project && yarn develop",
     "build": "cd ./my-project && yarn develop",
     "start": "next start",
     "lint": "next lint"
