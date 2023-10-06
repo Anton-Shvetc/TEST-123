@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd ./my-project && yarn develop\"",
-    "build": "concurrently \"next build\" \"cd ./my-project && yarn develop\"",
+    "build": "cd ./my-project && yarn develop",
     "start": "next start",
     "lint": "next lint"
   },
