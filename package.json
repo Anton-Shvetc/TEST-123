@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cd ./my-project && yarn develop",
-    "build": "cd ./my-project && npm ci && yarn develop",
+    "build": "cd ./my-project && yarn develop",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,11 @@
     "concurrently": "^8.2.1",
     "next": "13.5.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+        "@strapi/strapi": "4.14.3",
+    "@strapi/plugin-users-permissions": "4.14.3",
+    "@strapi/plugin-i18n": "4.14.3",
+    "better-sqlite3": "8.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10",
@@ -20,5 +24,8 @@
     "eslint-config-next": "13.5.4",
     "postcss": "^8",
     "tailwindcss": "^3"
+  },
+    "strapi": {
+    "uuid": "1e3f1535-1bc0-4779-8e38-bff980bce829"
   }
 }
